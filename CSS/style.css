@@ -1,0 +1,240 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    height: 100%;
+    width: 20%;
+}
+
+.image img{
+    height: 60%;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+.list{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.list li{
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list button{
+    height: 60%;
+    width: 10%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    height: 85%;
+    width: 100%;
+    background-image: url(/Images/Home\ Banner.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top h1{
+   text-align: center;
+   font-size: 50px;
+   margin: 30px;
+}
+
+.top p{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.top button{
+    height: 10%;
+    width: 15%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+
+.heading{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.heading p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.options{
+    width: 100%;
+    height: 85%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 25%;
+    flex-direction: column;
+}
+
+.image1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    max-width: 350px;
+    max-height: 201px;
+}
+
+.list1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.list1 li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 25%;
+    flex-direction: column;
+}
+
+.image2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    max-width: 350px;
+    max-height: 201px;
+}
+
+.list2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.list2 li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.image3{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 25%;
+    flex-direction: column;
+}
+
+.image3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    max-width: 350px;
+    max-height: 201px;
+}
+
+.list3 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.list3 li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.how{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left img{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
